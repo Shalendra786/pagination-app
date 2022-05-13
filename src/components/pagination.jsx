@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-
-const List = () => {
+import employee from '../rawData.json';
+const RawData = () => {
 
 
   return (
     <>
-      
+      console.log({employee})
     </>
   );
 };
 
-export default List;
+export default RawData;
